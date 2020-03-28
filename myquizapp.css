@@ -1,3 +1,4 @@
+
 body{
   background-color: #efdec1;
   font-size: 14px;
@@ -6,7 +7,7 @@ body{
 
 .container {
   width: 400px;
-  margin: 8px auto;
+  margin: auto auto;
   background-color: #fff;
   border-radius: 4px;
   padding: 16px;
@@ -102,7 +103,18 @@ body{
   text-decoration: none;
 }
 
-@media (max-width:400px) {
-  .selection {
-    margin: 8px 50px;
+@media only screen and (max-device-width: 480px) {
+  body {
+    width: 100%;
   }
+
+  section.container{
+    width: 350;
+    margin: 8px auto;
+  }
+
+  #question, #choices, #btn, #result, .hidden {
+    width: 330px;
+    margin: 8px auto;
+  }
+}
