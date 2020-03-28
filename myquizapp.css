@@ -101,3 +101,8 @@ body{
   display: block;
   text-decoration: none;
 }
+
+@media (max-width:400px) {
+  .selection {
+    margin: 8px 50px;
+  }
