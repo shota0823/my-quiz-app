@@ -102,19 +102,3 @@ body{
   display: block;
   text-decoration: none;
 }
-
-@media only screen and (max-device-width: 480px) {
-  body {
-    width: 100%;
-  }
-
-  section.container{
-    width: 350;
-    margin: 8px auto;
-  }
-
-  #question, #choices, #btn, #result, .hidden {
-    width: 330px;
-    margin: 8px auto;
-  }
-}
